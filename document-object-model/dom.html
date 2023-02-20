@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,900;1,300;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="dom.js" defer></script>
+    <title>My DOM</title>
+  </head>
+
+  <body>
+    <section>
+      <h1>The Best Web Dev Teachers on YouTube</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>
+              Instructor
+              <span class="arrow name-down-arrow">&#8595;</span>
+              <span class="arrow name-up-arrow">&#8593;</span>
+            </th>
+            <th>Channel</th>
+            <th>
+              Subs
+              <span class="arrow subs-down-arrow">&#8595;</span>
+              <span class="arrow subs-up-arrow">&#8593;</span>
+            </th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section>
+      <form id="search-books">
+        <h2>Bookorama<br /><span>Books for Nerds</span></h2>
+        <input type="text" placeholder="Search books..." />
+      </form>
+
+      <h2>Books to Read</h2>
+
+      <ul class="book-list triggered">
+        <li class="book-item triggered">
+          <h3>Eloquent JavaScript</h3>
+          <button class="delete triggered">delete</button>
+        </li>
+        <li class="book-item triggered">
+          <h3>Enlightenment Now</h3>
+          <button class="delete triggered">delete</button>
+        </li>
+        <li class="book-item triggered">
+          <h3>Thinking, Fast and Slow</h3>
+          <button class="delete triggered">delete</button>
+        </li>
+        <li class="book-item triggered">
+          <div>
+            <h3>Behave</h3>
+            <h4>The Biology of Humans at Our Best and Worst</h4>
+          </div>
+          <button class="delete triggered">delete</button>
+        </li>
+        <li class="book-item triggered">
+          <h3>Ulysses</h3>
+          <button class="delete triggered">delete</button>
+        </li>
+        <li class="book-item triggered">
+          <h3>1984</h3>
+          <button class="delete triggered">delete</button>
+        </li>
+      </ul>
+
+      <form id="add-book">
+        <div>
+          <input type="checkbox" id="hide" class="hidden" />
+          <label><span>&#8592;</span> hide all books</label>
+        </div>
+        <div>
+          <input type="text" placeholder="Add a book..." />
+          <button class="add">add</button>
+        </div>
+      </form>
+    </section>
+
+    <section>
+      <div class="message">
+        <input type="text" placeholder="Write a message and press enter..." />
+        <p class="result"></p>
+      </div>
+    </section>
+
+    <section class="tabbed-content">
+      <ul id="tabs">
+        <li data-name="#about" class="active">About</li>
+        <li data-name="#contact" class="inactive">Contact</li>
+      </ul>
+      <div class="panel active" id="about">
+        <h2>About Me</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor
+          expedita asperiores quaerat facilis mollitia molestias Lorem ipsum
+          dolor, sit amet consectetur adipisicing elit.<br /><br />Magnam
+          eligendi soluta officiis! Quam modi, magnam, vel illum maiores libero
+          illo perspiciatis, iste nobis autem accusantium maxime sapiente!
+        </p>
+      </div>
+      <div class="panel" id="contact">
+        <h2>Contact me</h2>
+        <p>e-mail: mi@something.com</p>
+        <p>tel: +9896999996989</p>
+      </div>
+    </section>
+
+    <footer></footer>
+  </body>
+</html>

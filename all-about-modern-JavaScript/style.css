@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,900&display=swap');
+
+body {
+  width: 70%;
+  margin: 6rem auto;
+  line-height: 1.35;
+  font-family: 'Roboto';
+  background: #111;
+  color: #ffc;
+}
+
+h1 {
+  margin: 3rem 0;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.35rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+div,
+h2 {
+  margin: 3rem auto;
+}
+
+h2,
+ul {
+  color: limegreen;
+  text-align: center;
+  padding: 0;
+}
+
+li {
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: larger;
+  margin: 1rem;
+  padding-bottom: 3px;
+  display: inline-block;
+  padding: 1rem 2rem;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffd;
+  font-style: italic;
+}
+
+a:hover {
+  color: tomato;
+}
+
+a:active,
+a:focus {
+  outline: tomato;
+}
+
+.error {
+  margin: 1rem;
+  font-weight: bold;
+  color: tomato;
+}
+
+.success {
+  margin: 1rem;
+  font-weight: bold;
+  color: limegreen;
+}
+
+.spacing {
+  letter-spacing: 0.1rem;
+}
+
+.heading {
+  margin: 5rem 0;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  display: block;
+  min-width: 150px;
+  margin: 5rem auto;
+  padding: 0.75rem 1.5rem;
+  font-size: larger;
+  border-radius: 5px;
+  border: none;
+  background: limegreen;
+  color: white;
+}

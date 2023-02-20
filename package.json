@@ -1,0 +1,13 @@
+{
+  "name": "vanilla-js-in-detail",
+  "version": "1.0.0",
+  "description": "JavaScript code snippets",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Mila Ziabchenko",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "eslint-plugin-immutable": "^1.0.0"
+  }
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/Ninja_37507.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/arrays.js" defer></script>
+    <!-- <script src="js/basics.js" defer></script> -->
+    <!-- <script src="js/es-next.js" defer></script> -->
+    <!-- <script src="js/functions.js" defer></script> -->
+    <!-- <script src="js/objects.js" defer></script> -->
+    <!-- <script src="js/prototypes.js" defer></script> -->
+    <title>Modern JavaScript: Theory &amp; Practice</title>
+  </head>
+  <body>
+    <h1 style="color: tomato">Hello, Fellow Kittens!</h1>
+    <p>
+      <a href="img/Screenshot (366).png" target="_blank"
+        >JavaScript is a dynamic, interpreted and weakly typed programming
+        language</a
+      >
+      which was built with a purpose of
+      <a href="img/Screenshot (367).png" target="_blank"
+        >running in host environments</a
+      >. The code is not pre-compiled but instead evaluated, compiled and
+      executed at runtime
+      <a href="img/Screenshot (365).png" target="_blank"
+        >(e. g. when the browser executes the script)</a
+      >.
+    </p>
+    <p>
+      JavaScript assigns types to data containers (variables) at runtime, and
+      you can't set the types you want to use in certain places in advance. We
+      don't have to explicitly say what
+      <a href="img/datatypes/Screenshot (460).png" target="_blank">data type</a>
+      a variable will store, we can override a variable with a different type
+      too. For that reason JavaScript is known as a loosely typed language in
+      contrast to a strongly typed languages like Ruby or Python. In JavaScript
+      <a href="img/datatypes/Screenshot (347).png" target="_blank"
+        >all data types</a
+      >
+      are also divided into
+      <a href="img/Screenshot (390).png" target="_blank"
+        >primitive and reference types</a
+      >. It's all to do with
+      <a href="img/Screenshot (393).png" target="_blank"
+        >how they are stored and used in memory</a
+      >. When we store a primitive value in a variable, it adds that value to
+      the stack and it locks the variable name to it as an accessor to that
+      value. When we store a reference type in a variable, it adds the object to
+      the heap and then it adds the pointer to that object on the stack.
+      <a href="img/Screenshot (388).png" target="_blank">Variables' names</a>
+      can include strings, numbers, underscores and dollar signs, but can not
+      include reserved words and can not start with a number.
+    </p>
+    <p>
+      <a href="img/Screenshot (375).png" target="_blank">Functions</a>
+      are one of the main concepts or building blocks of pretty much any
+      programming language that you come across, they fall under the object type
+      and allow us to define a block of code which we can call and execute
+      whenever and as many times as we want.
+      <a href="img/Screenshot (376).png" target="_blank"
+        >We can reuse functions to make our program more space-efficient and
+        easy to read</a
+      >. Behind the scenes there is more code, which takes care of say logging
+      our message to the console, abstracting (condensing) all that code down to
+      a single line. Functions can take in
+      <a href="img/Screenshot (384).png" target="_blank"
+        >arguments (parameters)</a
+      >
+      which are variables that we pass into the function in order to be
+      manipulated and then either returned back to us, logged to the console, or
+      used in another operation. Functions that don't return anything are known
+      as 'void' functions. While function is a snippet of code which performs
+      some kind of specific task, method is just a function that's associated
+      with a particular object or data type.
+    </p>
+
+    <h2 class="hidden">Awesome Creatures</h2>
+
+    <ul class="awesome-creatures"></ul>
+
+    <div class="content"></div>
+  </body>
+</html>
